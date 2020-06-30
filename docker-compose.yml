@@ -1,0 +1,88 @@
+#getting data
+#  - using bash script?
+
+#loading to postgres
+#loading to mongodb
+#loading to mysql
+#loading to hbase
+#loading to redis
+#loading to couchdb
+
+#analyzing with Apache Spark
+
+#Analysis and Forecasting
+
+version: '3'
+services:
+
+  data_collector:
+    build: data_collector/
+    volumes:
+    - ./data_collector/:/code
+    links:
+    - postgres
+    - mysql
+    - mongodb
+    - hbase
+    - redis
+    - couchdb
+
+  postgres:
+    image: postgres
+    environment:
+    - POSTGRES_PASSWORD=1234
+    ports:
+    - 5567:5432
+
+
+  mysql:
+    image: mysql
+    ports:
+    - 3306:3306
+
+
+  mongodb:
+    image: mongodb
+    ports:
+    - 27017:27017
+
+  hbase:
+    image: hbase
+
+
+  redis:
+    image: redis
+
+  couchdb:
+    image:
+
+  data_analyzer:
+    spark-master:
+      image: bde2020/spark-master:3.0.0-hadoop3.2
+      container_name: spark-master
+      ports:
+        - 8080:8080
+        - 7077:7077
+      environment:
+        - INIT_DAEMON_STEP=setup_spark
+        - constraint:node==<yourmasternode>
+    spark-worker-1:
+      image: bde2020/spark-worker:3.0.0-hadoop3.2
+      container_name: spark-worker-1
+      depends_on:
+        - spark-master
+      ports:
+        - 8081:8081
+      environment:
+        - SPARK_MASTER=spark://spark-master:7077
+        - constraint:node==<yourworkernode>
+    spark-worker-2:
+      image: bde2020/spark-worker:3.0.0-hadoop3.2
+      container_name: spark-worker-2
+      depends_on:
+        - spark-master
+      ports:
+        - 8081:8081
+      environment:
+        - SPARK_MASTER=spark://spark-master:7077
+        - constraint:node==<yourworkernode>

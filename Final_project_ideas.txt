@@ -1,0 +1,19 @@
+FINAL PROJECT:
+
+Use cases:
+- Dashboard, Forecasting, Analysis
+- e.g. bot vs human
+
+
+Compare different Databases:
+- 'seven db in seven weeks'
+- Apache Spark python --> fertiger docker
+
+
+Databases:
+- Postgres
+- MySQL
+- MongoDB
+- Hbase
+- Redis
+- CouchDB
