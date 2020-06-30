@@ -30,7 +30,6 @@ services:
   postgres:
     image: postgres
     environment:
-    - POSTGRES_PASSWORD=1234
     ports:
     - 5567:5432
 
