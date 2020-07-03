@@ -12,3 +12,15 @@
   * `CouchDB`
 * Using `Apache Spark` for analyzing the data
 * Connecting everything via `Docker`
+
+
+### Learnings
+* Setting up MySQL 1st time really hard:
+  * easy access via Docker CLI
+  * Connecting db to MySQL Workbench -> create an (just another) Oracle account
+  * allow specific IP's instead of localhost
+  * giving users privileges
+
+#### Why you maybe like MySQL
+  **MySQL Workbench super cool tool
+  * easy to maintain, import/export data, visualization of data
