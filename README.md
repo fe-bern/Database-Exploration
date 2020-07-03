@@ -22,5 +22,6 @@
   * giving users privileges
 
 #### Why you maybe like MySQL
-  **MySQL Workbench super cool tool
+* MySQL Workbench super cool tool
   * easy to maintain, import/export data, visualization of data
+  * schema is synonymous with a database
