@@ -139,4 +139,10 @@ dmypy.json
 # Mac Stuff
 .DS_Store
 
+# Notes
+*ideas.txt
+
+#img/
+img/
+
 # End of https://www.toptal.com/developers/gitignore/api/python
