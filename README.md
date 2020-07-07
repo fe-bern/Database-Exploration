@@ -1,13 +1,13 @@
 ## Project: Database Exploration
-#### This is my final project at Spiced Academy. I wanted to compare different databases and use some tools, which are not part of the Spiced curriculum.
+#### This is my final project at Spiced Academy. I wanted to compare different databases and use some tools, which are not part of the Spiced curriculum. The idea came from the book "Seven Databases in Seven Weeks" by Luc Perkins. Since I'm having only two weeks, I'm doing 6 databases and use them in a simplified manner.
 ---
 ### Goal:
 * Setting up a Data Collector
 * Connecting to different databases:
+  * `MySQL`
   * `Postgres`
   * `MongoDB`
-  * `MySQL`
-  * `Redis`
+  * `Redis` (maybe at the end)
   * `HBase`
   * `CouchDB`
 * Using `Apache Spark` for analyzing the data
@@ -36,3 +36,12 @@
 ### Learnings MongoDB
 * easy set up
 * free Monitoring with unique URL
+
+---
+### Learnings HBase
+* no official Docker Image
+* for really(!) Big Data
+* need to know Ruby or Java
+* data insertion not the best
+* indexes with timestamps by itself
+* rows are similar to Python dictionaries
