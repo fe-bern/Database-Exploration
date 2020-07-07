@@ -14,14 +14,25 @@
 * Connecting everything via `Docker`
 
 
-### Learnings
+### Learnings MySQL
 * Setting up MySQL 1st time really hard:
   * easy access via Docker CLI
   * Connecting db to MySQL Workbench -> create an (just another) Oracle account
   * allow specific IP's instead of localhost
   * giving users privileges
 
-#### Why you maybe like MySQL
+##### Why you maybe like MySQL
 * MySQL Workbench super cool tool
   * easy to maintain, import/export data, visualization of data
   * schema is synonymous with a database
+
+----
+
+### Learnings Postgres
+* easier to use than MySQL
+* free GUI Tools like Postico (not that much functionality like Workbench)
+
+---
+### Learnings MongoDB
+* easy set up
+* free Monitoring with unique URL
