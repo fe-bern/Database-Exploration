@@ -7,11 +7,11 @@
   * `MySQL`
   * `Postgres`
   * `MongoDB`
-  * `Redis` (maybe at the end)
-  * `HBase`
-  * `CouchDB`
+  * `Redis`
+  * (`HBase`)
 * Using `Apache Spark` for analyzing the data
 * Connecting everything via `Docker`
+* Orchestrated with `Airflow`
 
 
 ### Learnings MySQL
@@ -21,6 +21,7 @@
   * allow specific IP's instead of localhost
   * giving users privileges
 
+* reading from pandas to_sql takes a lot of time to upload data to MySQL
 ##### Why you maybe like MySQL
 * MySQL Workbench super cool tool
   * easy to maintain, import/export data, visualization of data
@@ -45,3 +46,8 @@
 * data insertion not the best
 * indexes with timestamps by itself
 * rows are similar to Python dictionaries
+
+---
+### Performance
+* MySQl performance:
+* 2047078 row(s) returned	0.024 sec (Duration)/ 38.171 sec (Fetch time)
