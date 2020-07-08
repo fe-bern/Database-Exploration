@@ -147,6 +147,6 @@ dmypy.json
 img/
 
 # large csv files
-*.csv
+data/out_file.csv
 
 # End of https://www.toptal.com/developers/gitignore/api/python
