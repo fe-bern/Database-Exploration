@@ -35,4 +35,4 @@ def download_file(url):
         return 1
 
 get_recent_url()
-download_file(url_data)
+download_file(get_recent_url())
