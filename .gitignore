@@ -143,7 +143,10 @@ dmypy.json
 *ideas.txt
 *ideas.ipynb
 
-#img/
+# img/
 img/
+
+# large csv files
+*.csv
 
 # End of https://www.toptal.com/developers/gitignore/api/python
