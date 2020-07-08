@@ -29,6 +29,21 @@
 
 ----
 
+|  MySQL |  Postgres | MongoDB  | Redis  |
+|---|---|---|---|
+| * MySQL Workbench super cool tool
+  * easy to maintain, import/export data, visualization of data
+  * schema is synonymous with a database  | * easier to use than MySQL
+  * free GUI Tools like Postico (not that much functionality like Workbench)  | * easy set up
+  * free Monitoring with unique URL
+  |   |
+| * easy access via Docker CLI, but
+  * Connecting db to MySQL Workbench -> create an (just another) Oracle account
+  * allow specific IP's instead of localhost
+  * giving users privileges  |   |   |   |
+
+---
+
 ### Learnings Postgres
 * easier to use than MySQL
 * free GUI Tools like Postico (not that much functionality like Workbench)
