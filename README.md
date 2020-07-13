@@ -1,5 +1,5 @@
 ## Project: Database Exploration / Pipeline
-#### This is my final project at Spiced Academy. I wanted to compare different databases and use some tools, which are not part of the Spiced curriculum. The idea came from the book "Seven Databases in Seven Weeks" by Luc Perkins. Since I'm having only two weeks, I'm doing 4 databases and use them in a pipeline so it's more of "RL problem". I wanted to use Apache Spark to show how pandas breaks with big data.
+#### This is my final project at Spiced Academy. I wanted to compare different databases and use some tools, which are not part of the Spiced curriculum. The idea came from the book "Seven Databases in Seven Weeks" by Luc Perkins. The other part of my project is building a pipeline and connecting it to different database. I wanted to use Apache Spark to show how pandas breaks with big data.
 ---
 ### Goal:
 * Setting up a Data Collector
@@ -41,3 +41,8 @@
   * `SELECT * FROM table1`: 2.047.078 row(s) returned	0.024 sec (Duration)/ 38.171 sec (Fetch time)
 * Postgres Performance:
   * `%time pd.to_sql`: interrupted the kernel after over an hour, table is created but no data is inserted (even with `ècho=True` and `INSERT` is executed)
+
+---
+### General Learnings
+* Exit code 137: OOM Kill -> go to Docker Settings and increase memory
+* Apache Spark maybe a bit overkill, clusters also quite complex instead using PySpark
