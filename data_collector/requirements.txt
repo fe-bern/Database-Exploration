@@ -1,4 +1,8 @@
-# csv
-# io
-# gzip
+datetime
 pandas
+sqlalchemy
+python-dotenv==0.13.0
+PyMySQL==0.9.3
+urllib3==1.25.8
+mysql-connector-python
+cryptography
