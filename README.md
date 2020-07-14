@@ -13,7 +13,7 @@
 * Connecting everything via `Docker`
 * Orchestrated with `Airflow`
 
-![image](https://github.com/fe-bern/db_exploration/blob/master/img/architecture.png?raw=true)
+![image](https://github.com/fe-bern/db_exploration/blob/master/img/architecture_new.png?raw=true)
 
 
 ### Learnings from working with different databases
