@@ -146,7 +146,10 @@ dmypy.json
 # img/
 img/Kanban*
 
+# keys
+secrets.yml
+
 # large csv files
-data/out_file.csv
+*file.csv
 
 # End of https://www.toptal.com/developers/gitignore/api/python
