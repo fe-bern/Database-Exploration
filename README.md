@@ -1,4 +1,7 @@
 ## Project: Database Exploration / Pipeline
+
+![Python application](https://github.com/fe-bern/db_exploration/workflows/Python%20application/badge.svg)
+
 #### This is my final project at Spiced Academy. I wanted to compare different databases and use some tools, which are not part of the Spiced curriculum. The idea came from the book "Seven Databases in Seven Weeks" by Luc Perkins. The other part of my project is building a pipeline and connecting it to different database. I wanted to use Apache Spark to show how pandas breaks with big data.
 ---
 ### Goal:
