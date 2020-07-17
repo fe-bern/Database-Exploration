@@ -1,4 +1,5 @@
 version: '3'
+Loader=yaml.Loader
 services:
 
   data_collector:
