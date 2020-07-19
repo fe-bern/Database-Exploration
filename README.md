@@ -45,6 +45,4 @@
   * `%time pd.to_sql`: interrupted the kernel after over an hour, table is created but no data is inserted (even with `ècho=True` and `INSERT` is executed)
 
 ---
-### General Learnings
-* Exit code 137: OOM Kill -> go to Docker Settings and increase memory
 * Apache Spark maybe a bit overkill, clusters also quite complex instead using PySpark
