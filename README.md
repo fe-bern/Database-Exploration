@@ -22,10 +22,9 @@
 ### Learnings from working with different databases
 ----
 
-| Databases  |  MySQL |  Postgres | MongoDB  | Redis  |
-|---|---|---|---|---|
-| Pros  | MySQL Workbench super cool tool, easy to maintain, import/export data, visualization of data, schema is synonymous with a database  | easier to use than MySQL, free GUI Tools like Postico (not that much functionality like Workbench), but quick check for content  | easy set up, free Monitoring with unique URL |   |
-| Cons  | Connecting db to MySQL Workbench, create an (just another) Oracle account, allow specific IP's instead of localhost, giving users privileges  |   |   |   |
+|  MySQL |  Postgres | MongoDB  | Redis  |
+|---|---|---|---|
+| MySQL Workbench very useful, easy to maintain, import/export data, visualization of data | easier to use than MySQL, free GUI Tools like Postico (not that much functionality like Workbench), but quick check for content  | easy set up, free Monitoring with unique URL | not really a Database, Key-Value-Storage, Caches other DB's  |
 
 
 ---
