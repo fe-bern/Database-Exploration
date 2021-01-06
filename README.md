@@ -42,7 +42,7 @@
   * `%time pd.to_sql`: CPU times: user 1min 33s, sys: 24.2 s, total: 1min 57s Wall time: 5min 14s
   * `SELECT * FROM table1`: 2.047.078 row(s) returned	0.024 sec (Duration)/ 38.171 sec (Fetch time)
 * Postgres Performance:
-  * `%time pd.to_sql`: interrupted the kernel after over an hour, table is created but no data is inserted (even with `ècho=True` and `INSERT` is executed)
+  * `%time pd.to_sql`: interrupted the kernel after over an hour, table is created but no data is inserted (even with `echo=True` and `INSERT` is executed)
 
 ---
 * Apache Spark maybe a bit overkill, clusters also quite complex instead using PySpark
