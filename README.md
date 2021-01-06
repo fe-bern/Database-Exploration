@@ -45,4 +45,10 @@
   * `%time pd.to_sql`: interrupted the kernel after over an hour, table is created but no data is inserted (even with `echo=True` and `INSERT` is executed)
 
 ---
+### Security
+* use .env instead of config files (.env should be by default in gitignore)
+* you can add under settings -> secrets your passwords for e.g. database or AWS connection
+* have no problems with CI using Github Actions, because Github can access everything via secrets
+
+---
 * Apache Spark maybe a bit overkill, clusters also quite complex instead using PySpark
