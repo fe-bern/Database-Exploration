@@ -3,7 +3,7 @@ pandas
 sqlalchemy
 python-dotenv==0.13.0
 PyMySQL==0.9.3
-urllib3==1.26.5
+urllib3==1.26.17
 mysql-connector-python
 cryptography
 psycopg2-binary
